@@ -1,0 +1,50 @@
+priority 1
+snippet fnn "fn\n"
+fn ${1:args} ->
+  ${0}
+end
+endsnippet
+
+snippet d "def"
+def ${1:name}(${2}) do
+  ${0}
+end
+endsnippet
+
+snippet dp "defp"
+defp ${1:name}(${2}) do
+  ${0}
+end
+endsnippet
+
+snippet dw "def \n when"
+def ${1:name}
+    when ${2:condition} do
+  ${0}
+end
+endsnippet
+
+snippet dpw "defp \n when"
+defp ${1:name}
+     when ${2:condition} do
+  ${0}
+end
+endsnippet
+
+snippet c "case"
+case ${1:exp} do
+	${2:condition} ->
+		${0}
+end
+endsnippet
+
+snippet c "case"
+case ${1:exp} do
+	${2:condition} ->
+		${0}
+end
+endsnippet
+
+snippet | "|> (& &1).()"
+|> (& ${1}&1${0}).()
+endsnippet

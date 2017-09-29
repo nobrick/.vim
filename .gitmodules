@@ -67,3 +67,12 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar
+[submodule "/Users/tornado/.vim/bundle/ack.vim"]
+	path = /Users/tornado/.vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "bundle/vim-elixir"]
+	path = bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "bundle/vim-sneak"]
+	path = bundle/vim-sneak
+	url = git://github.com/justinmk/vim-sneak.git
